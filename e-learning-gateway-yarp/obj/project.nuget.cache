@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OYm6ZwGk2+I=",
+  "success": true,
+  "projectFilePath": "/Users/luan/Downloads/e-learning/e-learning-gateway-yarp/e-learning-gateway-yarp.csproj",
+  "expectedPackageFiles": [
+    "/Users/luan/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "/Users/luan/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/Users/luan/.nuget/packages/system.io.hashing/7.0.0/system.io.hashing.7.0.0.nupkg.sha512",
+    "/Users/luan/.nuget/packages/yarp.reverseproxy/2.1.0/yarp.reverseproxy.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

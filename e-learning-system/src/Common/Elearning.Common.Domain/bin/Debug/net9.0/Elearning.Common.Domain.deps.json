@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Elearning.Common.Domain/1.0.0": {
+        "runtime": {
+          "Elearning.Common.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elearning.Common.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

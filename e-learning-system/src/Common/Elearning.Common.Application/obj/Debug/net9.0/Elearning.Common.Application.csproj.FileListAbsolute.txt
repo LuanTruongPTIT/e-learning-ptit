@@ -1,0 +1,15 @@
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/bin/Debug/net9.0/Elearning.Common.Application.deps.json
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/bin/Debug/net9.0/Elearning.Common.Application.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/bin/Debug/net9.0/Elearning.Common.Application.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/bin/Debug/net9.0/Elearning.Common.Domain.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/bin/Debug/net9.0/Elearning.Common.Domain.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/Elearning.Common.Application.csproj.AssemblyReference.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/Elearning.Common.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/Elearning.Common.Application.AssemblyInfoInputs.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/Elearning.Common.Application.AssemblyInfo.cs
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/Elearning.Common.Application.csproj.CoreCompileInputs.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/Elearnin.29CE6D23.Up2Date
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/Elearning.Common.Application.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/refint/Elearning.Common.Application.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/Elearning.Common.Application.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/Debug/net9.0/ref/Elearning.Common.Application.dll

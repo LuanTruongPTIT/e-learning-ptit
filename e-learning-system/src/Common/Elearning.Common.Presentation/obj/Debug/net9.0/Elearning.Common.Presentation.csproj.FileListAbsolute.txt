@@ -1,0 +1,15 @@
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/bin/Debug/net9.0/Elearning.Common.Presentation.deps.json
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/bin/Debug/net9.0/Elearning.Common.Presentation.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/bin/Debug/net9.0/Elearning.Common.Presentation.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/Elearning.Common.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/Elearning.Common.Presentation.AssemblyInfoInputs.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/Elearning.Common.Presentation.AssemblyInfo.cs
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/Elearning.Common.Presentation.csproj.CoreCompileInputs.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/Elearning.Common.Presentation.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/refint/Elearning.Common.Presentation.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/Elearning.Common.Presentation.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/ref/Elearning.Common.Presentation.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/bin/Debug/net9.0/Elearning.Common.Domain.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/bin/Debug/net9.0/Elearning.Common.Domain.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/Elearning.Common.Presentation.csproj.AssemblyReference.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Presentation/obj/Debug/net9.0/Elearnin.20ABB90F.Up2Date
