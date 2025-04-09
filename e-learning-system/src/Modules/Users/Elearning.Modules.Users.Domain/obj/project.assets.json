@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net8.0": {
+      "Elearning.Common.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Elearning.Common.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Elearning.Common.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Elearning.Common.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj",
+      "msbuildProject": "../../../Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net8.0": [
+      "Elearning.Common.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/luan/.nuget/packages/": {}
@@ -23,15 +42,19 @@
         "/Users/luan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj": {
+              "projectPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -43,12 +66,11 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -65,7 +87,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

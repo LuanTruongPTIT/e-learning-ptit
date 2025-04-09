@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Elearning.Modules.Users.Presentation/1.0.0": {
+        "runtime": {
+          "Elearning.Modules.Users.Presentation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elearning.Modules.Users.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

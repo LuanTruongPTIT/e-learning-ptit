@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Elearning.Common.Presentation/1.0.0": {
+        "dependencies": {
+          "Elearning.Common.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Elearning.Common.Presentation.dll": {}
+        }
+      },
+      "Elearning.Common.Domain/1.0.0": {
+        "runtime": {
+          "Elearning.Common.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elearning.Common.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elearning.Common.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

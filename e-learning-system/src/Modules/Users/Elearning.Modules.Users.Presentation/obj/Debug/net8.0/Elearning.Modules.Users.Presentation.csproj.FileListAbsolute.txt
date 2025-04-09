@@ -1,0 +1,12 @@
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/bin/Debug/net8.0/Elearning.Modules.Users.Presentation.deps.json
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/bin/Debug/net8.0/Elearning.Modules.Users.Presentation.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/bin/Debug/net8.0/Elearning.Modules.Users.Presentation.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/Elearning.Modules.Users.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/Elearning.Modules.Users.Presentation.AssemblyInfoInputs.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/Elearning.Modules.Users.Presentation.AssemblyInfo.cs
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/Elearning.Modules.Users.Presentation.csproj.CoreCompileInputs.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/Elearning.Modules.Users.Presentation.sourcelink.json
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/Elearning.Modules.Users.Presentation.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/refint/Elearning.Modules.Users.Presentation.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/Elearning.Modules.Users.Presentation.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Presentation/obj/Debug/net8.0/ref/Elearning.Modules.Users.Presentation.dll

@@ -2,11 +2,12 @@
 
 using Elearning.Common.Domain;
 
-namespace Elearning.Modules.Domain.Users;
+namespace Elearning.Modules.Users.Domain.Users;
+
 public sealed class User : Entity
 {
   private readonly List<Role> _roles = [];
-
+  public IReadOnlyCollection<Role> Roles => _roles.ToList();
   private User() { }
   public Guid id { get; private set; }
   public string username { get; private set; }

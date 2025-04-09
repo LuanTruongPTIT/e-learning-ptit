@@ -1,4 +1,5 @@
-namespace Elearning.Modules.Domain.Users;
+
+namespace Elearning.Modules.Users.Domain.Users;
 
 public enum AccountUserStatus
 {

@@ -5,6 +5,7 @@ using Elearning.Common.Application.Clock;
 using Elearning.Common.Application.Data;
 using Elearning.Common.Application.EventBus;
 using Elearning.Common.Infrastructure.Data;
+using Elearning.Common.Infrastructure.Outbox;
 using MassTransit;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -15,6 +16,7 @@ using Quartz;
 using StackExchange.Redis;
 
 namespace Elearning.Common.Infrastructure;
+
 public static class InfrastructureConfiguration
 {
   public static IServiceCollection AddInfrastructure(
@@ -22,13 +24,14 @@ public static class InfrastructureConfiguration
     string serviceName,
     // Action<IRegistrationConfigurator>[] moduleConfigureConsumers,
     string databaseConnectionString,
-    string redisConnectionString
-  // string rabbitmqConnectionString
+    string redisConnectionString,
+  string rabbitmqConnectionString
   )
   {
     services.TryAddSingleton<IDateTimeProvider, DateTimeProvider>();
 
-    // services.TryAddSingleton<IEventBus, EventBus.EventBus>();
+    services.TryAddSingleton<IEventBus, EventBus.EventBus>();
+    services.TryAddSingleton<InsertOutboxMessagesInterceptor>();
 
     NpgsqlDataSource npgsqlDataSource = new NpgsqlDataSourceBuilder(databaseConnectionString).Build();
     services.TryAddSingleton(npgsqlDataSource);
@@ -59,24 +62,24 @@ public static class InfrastructureConfiguration
       services.AddDistributedMemoryCache();
     }
 
-    // services.AddMassTransit(configure =>
-    // {
-    //   foreach (Action<IRegistrationConfigurator> configureConsumers in moduleConfigureConsumers)
-    //   {
-    //     configureConsumers(configure);
-    //   }
-    //   configure.SetKebabCaseEndpointNameFormatter();
+    services.AddMassTransit(configure =>
+    {
+      // foreach (Action<IRegistrationConfigurator> configureConsumers in moduleConfigureConsumers)
+      // {
+      //   configureConsumers(configure);
+      // }
+      configure.SetKebabCaseEndpointNameFormatter();
 
-    //   configure.UsingRabbitMq((context, cfg) =>
-    //   {
-    //     cfg.Host(rabbitmqConnectionString, host =>
-    //     {
-    //       host.Username("user");
-    //       host.Password("user");
-    //     });
-    //     cfg.ConfigureEndpoints(context);
-    //   });
-    // });
+      configure.UsingRabbitMq((context, cfg) =>
+      {
+        cfg.Host(rabbitmqConnectionString, host =>
+        {
+          host.Username("user");
+          host.Password("user");
+        });
+        cfg.ConfigureEndpoints(context);
+      });
+    });
 
     services.AddOpenTelemetry()
     .ConfigureResource(resource => resource.AddService(serviceName))
@@ -88,8 +91,8 @@ public static class InfrastructureConfiguration
           .AddEntityFrameworkCoreInstrumentation()
           .AddRedisInstrumentation()
           // .AddMassTransitInstrumentation()
-          .AddNpgsql();
-      // .AddSource(MassTransit.Logging.DiagnosticHeaders.DefaultListenerName);
+          .AddNpgsql()
+      .AddSource(MassTransit.Logging.DiagnosticHeaders.DefaultListenerName);
 
       tracing.AddOtlpExporter();
     });

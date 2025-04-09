@@ -1,0 +1,16 @@
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/bin/Debug/net8.0/Elearning.Modules.Users.Domain.deps.json
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/bin/Debug/net8.0/Elearning.Modules.Users.Domain.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/bin/Debug/net8.0/Elearning.Modules.Users.Domain.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/bin/Debug/net8.0/Elearning.Common.Domain.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/bin/Debug/net8.0/Elearning.Common.Domain.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearning.Modules.Users.Domain.csproj.AssemblyReference.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearning.Modules.Users.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearning.Modules.Users.Domain.AssemblyInfoInputs.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearning.Modules.Users.Domain.AssemblyInfo.cs
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearning.Modules.Users.Domain.csproj.CoreCompileInputs.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearning.Modules.Users.Domain.sourcelink.json
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearnin.369BB2DF.Up2Date
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearning.Modules.Users.Domain.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/refint/Elearning.Modules.Users.Domain.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/Elearning.Modules.Users.Domain.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/Debug/net8.0/ref/Elearning.Modules.Users.Domain.dll
