@@ -18,7 +18,8 @@ public static class ApiResults
         detail: GetDetail(result.Error),
         type: GetType(result.Error.Type),
         statusCode: GetStatusCode(result.Error.Type),
-        extensions: GetErrors(result));
+        extensions: GetErrors(result)
+        );
 
     static string GetTitle(Error error) =>
         error.Type switch

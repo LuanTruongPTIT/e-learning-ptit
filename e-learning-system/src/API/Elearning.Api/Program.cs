@@ -8,9 +8,9 @@ using Elearning.Common.Infrastructure;
 using Elearning.Common.Application;
 using Elearning.Api;
 using System.Reflection;
-using Microsoft.Extensions.DependencyInjection;
 using Elearning.Api.Extensions;
 using Elearning.Modules.Users.Infrastructure;
+using Elearning.Modules.Program.Infrastructure;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
@@ -19,7 +19,9 @@ builder.Services.AddProblemDetails();
 builder.Services.AddEndpointsApiExplorer();
 
 Assembly[] moduleApplicationAssemblies = [
-    Elearning.Modules.Users.Application.AssemblyReference.Assembly,];
+    Elearning.Modules.Users.Application.AssemblyReference.Assembly,
+    Elearning.Modules.Program.Application.AssemblyReference.Assembly,
+];
 
 builder.Services.AddApplication(moduleApplicationAssemblies);
 // builder.Services.AddSwaggerDocumentation();
@@ -30,9 +32,13 @@ Console.WriteLine(redisConnectionString);
 string rabbitmqConnectionString = builder.Configuration.GetConnectionStringOrThrow("RabbitMQ");
 Console.WriteLine(rabbitmqConnectionString);
 
+IConfigurationSection jwtSettings = builder.Configuration.GetSection("JwtSettings");
+var secret = jwtSettings["Secret"];
 
 builder.Services.AddInfrastructure(
     DiagnosticsConfig.ServiceName,
+    jwtSettings,
+    secret,
     // [
     //     EventsModule.ConfigureConsumers(redisConnectionString),
     //     TicketingModule.ConfigureConsumers,
@@ -43,7 +49,6 @@ builder.Services.AddInfrastructure(
     rabbitmqConnectionString);
 // builder.Services.AddOpenApi();
 
-
 builder.Services.AddHealthChecks()
     .AddNpgSql(databaseConnectionString)
     .AddRedis(redisConnectionString)
@@ -52,6 +57,30 @@ builder.Services.AddHealthChecks()
 
 builder.Configuration.AddModuleConfiguration(["users"]);
 builder.Services.AddUsersModule(builder.Configuration);
+builder.Services.AddProgramsModule(builder.Configuration);
+builder.Services.AddCors(options =>
+{
+  options.AddPolicy("AllowFrontend", builder =>
+  {
+    builder
+          .WithOrigins("http://localhost:3000") // Frontend URL
+          .AllowAnyMethod()
+          .AllowAnyHeader()
+          .AllowCredentials();
+  });
+});
+builder.Services.AddCors(options =>
+{
+  options.AddPolicy("AllowFrontend", builder =>
+  {
+    builder
+          .WithOrigins("http://localhost:3000") // Frontend URL
+          .AllowAnyMethod()
+          .AllowAnyHeader()
+          .AllowCredentials();
+  });
+});
+
 WebApplication app = builder.Build();
 Console.WriteLine(app.Environment.IsDevelopment());
 if (app.Environment.IsDevelopment())
@@ -68,6 +97,7 @@ app.UseLogContext();
 app.UseSerilogRequestLogging();
 
 app.UseExceptionHandler();
+app.UseCors("AllowFrontend");
 app.MapEndpoints();
 
 Console.WriteLine("Running");

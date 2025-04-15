@@ -9,6 +9,9 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Elearning.Modules.Users.Infrastructure.Outbox;
 using Elearning.Common.Application.EventBus;
 using Elearning.Modules.Users.Infrastructure.Inbox;
+using Elearning.Common.Presentation.Endpoints;
+using Elearning.Modules.Users.Domain.Users;
+using Elearning.Modules.Users.Infrastructure.Users;
 namespace Elearning.Modules.Users.Infrastructure;
 
 
@@ -20,12 +23,13 @@ public static class UsersModule
 
     services.AddIntegrationEventHandlers();
     services.AddInfrastructure(configuration);
-
+    services.AddEndpoints(User.Presentation.AssemblyReference.Assembly);
     return services;
   }
 
   private static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
   {
+    services.AddScoped<IUserRepository, UsersRepository>();
     services.AddDbContext<UsersDbContext>((sp, options) =>
       options
              .UseNpgsql(

@@ -5,5 +5,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\ELearning.Common.Application\Elearning.Common.Application.csproj" />
+    <ProjectReference Include="..\ELearning.Modules.Users.Domain\Elearning.Modules.Users.Domain.csproj" />
+
+
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
 
 </Project>

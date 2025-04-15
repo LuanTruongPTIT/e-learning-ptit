@@ -10,3 +10,11 @@
 /Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/obj/Debug/net8.0/refint/Elearning.Modules.Users.Application.dll
 /Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/obj/Debug/net8.0/Elearning.Modules.Users.Application.pdb
 /Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/obj/Debug/net8.0/ref/Elearning.Modules.Users.Application.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/bin/Debug/net8.0/Elearning.Common.Application.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/bin/Debug/net8.0/Elearning.Common.Domain.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/bin/Debug/net8.0/Elearning.Common.Application.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/bin/Debug/net8.0/Elearning.Common.Domain.pdb
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/obj/Debug/net8.0/Elearning.Modules.Users.Application.csproj.AssemblyReference.cache
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/obj/Debug/net8.0/Elearnin.FEAD82D3.Up2Date
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/bin/Debug/net8.0/Elearning.Modules.Users.Domain.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/bin/Debug/net8.0/Elearning.Modules.Users.Domain.pdb

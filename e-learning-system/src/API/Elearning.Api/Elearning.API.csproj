@@ -14,10 +14,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Common\Elearning.Common.Application\Elearning.Common.Application.csproj" />
-    <ProjectReference Include="..\..\Common\Elearning.Common.Presentation\Elearning.Common.Presentation.csproj" />
-    <ProjectReference Include="..\..\Common\Elearning.Common.Infrastructure\Elearning.Common.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\Modules\Users\Elearning.Modules.Users.Infrastructure\Elearning.Modules.Users.Infrastructure.csproj" />
+    <ProjectReference
+      Include="..\..\Common\Elearning.Common.Application\Elearning.Common.Application.csproj" />
+    <ProjectReference
+      Include="..\..\Common\Elearning.Common.Presentation\Elearning.Common.Presentation.csproj" />
+    <ProjectReference
+      Include="..\..\Common\Elearning.Common.Infrastructure\Elearning.Common.Infrastructure.csproj" />
+    <ProjectReference
+      Include="..\..\Modules\Users\Elearning.Modules.Users.Infrastructure\Elearning.Modules.Users.Infrastructure.csproj" />
+    <ProjectReference
+      Include="..\..\Modules\Program\Elearning.Modules.Program.Infrastructure\Elearning.Modules.Program.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

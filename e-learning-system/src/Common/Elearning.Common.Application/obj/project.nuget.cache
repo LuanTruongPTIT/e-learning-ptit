@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PtVq6nK1Wac=",
+  "dgSpecHash": "x001IKZ3i5c=",
   "success": true,
   "projectFilePath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/Elearning.Common.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/luan/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/luan/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
     "/Users/luan/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
     "/Users/luan/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.0/fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "/Users/luan/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",

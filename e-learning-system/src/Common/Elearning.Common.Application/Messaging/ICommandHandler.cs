@@ -1,13 +1,10 @@
 using Elearning.Common.Domain;
+using MediatR;
 
 namespace Elearning.Common.Application.Messaging;
-public interface IDomainEventHandler<in TDomainEvent> : IDomainEventHandler
-    where TDomainEvent : IDomainEvent
-{
-  Task Handle(TDomainEvent domainEvent, CancellationToken cancellationToken = default);
-}
 
-public interface IDomainEventHandler
-{
-  Task Handle(IDomainEvent domainEvent, CancellationToken cancellationToken = default);
-}
+public interface ICommandHandler<in TCommand> : IRequestHandler<TCommand, Result>
+    where TCommand : ICommand;
+
+public interface ICommandHandler<in TCommand, TResponse> : IRequestHandler<TCommand, Result<TResponse>>
+    where TCommand : ICommand<TResponse>;

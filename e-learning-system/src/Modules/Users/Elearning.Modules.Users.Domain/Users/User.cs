@@ -10,23 +10,21 @@ public sealed class User : Entity
   public IReadOnlyCollection<Role> Roles => _roles.ToList();
   private User() { }
   public Guid id { get; private set; }
-  public string username { get; private set; }
+  public string? username { get; private set; }
   public string password_hash { get; private set; }
   public string email { get; private set; }
   public string phone_number { get; private set; }
-  public string first_name { get; private set; }
-  public string last_name { get; private set; }
-  public DateTime date_of_birth { get; private set; }
+  public string full_name { get; private set; }
+  public DateTime? date_of_birth { get; private set; }
   public Gender gender { get; private set; }
-  public string avatar_url { get; private set; }
-  public string address { get; private set; }
+  public string? avatar_url { get; private set; }
+  public string? address { get; private set; }
   public AccountUserStatus account_status { get; private set; }
   public DateTime created_at { get; private set; }
   public DateTime updated_at { get; private set; }
 
   public static User Create(string email,
-                            string fristName,
-                            string lastName,
+                            string fullName,
                             string password,
                             Role role,
                             string phoneNumber,
@@ -41,8 +39,7 @@ public sealed class User : Entity
     {
       id = Guid.NewGuid(),
       email = email,
-      first_name = fristName,
-      last_name = lastName,
+      full_name = fullName,
       password_hash = password,
       phone_number = phoneNumber,
       username = username,

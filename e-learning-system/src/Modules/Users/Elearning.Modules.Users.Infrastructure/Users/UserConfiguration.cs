@@ -7,12 +7,12 @@ internal sealed class UserConfiguration : IEntityTypeConfiguration<Elearning.Mod
 {
   public void Configure(EntityTypeBuilder<Elearning.Modules.Users.Domain.Users.User> builder)
   {
+    builder.ToTable("table_users", "users");
     builder.HasKey(u => u.id);
     builder.HasIndex(u => u.email).IsUnique();
     builder.HasIndex(u => u.username);
     builder.Property(u => u.password_hash).HasMaxLength(255);
-    builder.Property(u => u.first_name).HasMaxLength(255);
-    builder.Property(u => u.last_name).HasMaxLength(255);
+    builder.Property(u => u.full_name).HasMaxLength(255);
     builder.Property(u => u.phone_number).HasMaxLength(255);
     builder.Property(u => u.address).HasMaxLength(255);
     builder.Property(u => u.avatar_url).HasMaxLength(255);

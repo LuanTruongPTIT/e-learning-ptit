@@ -4,6 +4,152 @@
     "/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/Elearning.Modules.Users.Application.csproj": {}
   },
   "projects": {
+    "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/Elearning.Common.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/Elearning.Common.Application.csproj",
+        "projectName": "Elearning.Common.Application",
+        "projectPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/Elearning.Common.Application.csproj",
+        "packagesPath": "/Users/luan/.nuget/packages/",
+        "outputPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/luan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj": {
+                "projectPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj",
+        "projectName": "Elearning.Common.Domain",
+        "projectPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj",
+        "packagesPath": "/Users/luan/.nuget/packages/",
+        "outputPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/luan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Application/Elearning.Modules.Users.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +171,82 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/Elearning.Common.Application.csproj": {
+                "projectPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Application/Elearning.Common.Application.csproj"
+              },
+              "/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/Elearning.Modules.Users.Domain.csproj": {
+                "projectPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/Elearning.Modules.Users.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/Elearning.Modules.Users.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/Elearning.Modules.Users.Domain.csproj",
+        "projectName": "Elearning.Modules.Users.Domain",
+        "projectPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/Elearning.Modules.Users.Domain.csproj",
+        "packagesPath": "/Users/luan/.nuget/packages/",
+        "outputPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/luan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj": {
+                "projectPath": "/Users/luan/Downloads/e-learning/e-learning-system/src/Common/Elearning.Common.Domain/Elearning.Common.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
