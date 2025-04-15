@@ -24,3 +24,5 @@
 /Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Infrastructure/obj/Debug/net8.0/refint/Elearning.Modules.Users.Infrastructure.dll
 /Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Infrastructure/obj/Debug/net8.0/Elearning.Modules.Users.Infrastructure.pdb
 /Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Infrastructure/obj/Debug/net8.0/ref/Elearning.Modules.Users.Infrastructure.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Infrastructure/bin/Debug/net8.0/Elearning.Common.Presentation.dll
+/Users/luan/Downloads/e-learning/e-learning-system/src/Modules/Users/Elearning.Modules.Users.Infrastructure/bin/Debug/net8.0/Elearning.Common.Presentation.pdb
