@@ -92,7 +92,7 @@ app.MapHealthChecks("health", new HealthCheckOptions
 {
   ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
 });
-
+// build
 app.UseLogContext();
 app.UseSerilogRequestLogging();
 
