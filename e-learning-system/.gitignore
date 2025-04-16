@@ -1,50 +1,8 @@
-
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-/containers/db/base/16384/
-/containers/db/base/16384/2657
-
-# .NET
+# .NET Core
+bin/
 obj/
-[Dd]ebug/
-[Rr]elease/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
+*.dll
+*.pdb
 
 # Visual Studio files
 .vs/
@@ -53,13 +11,26 @@ bld/
 *.sln.docstates
 *.userprefs
 
-# IDE
+# Rider
 .idea/
-.vscode/*
+
+# Visual Studio Code
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependencies
+node_modules/
+packages/
+*.nuget.props
+*.nuget.targets
 
 # Build results
 [Dd]ebug/
@@ -68,16 +39,32 @@ bld/
 [Rr]eleases/
 x64/
 x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
+build/
 bld/
 [Bb]in/
 [Oo]bj/
-[Ll]og/
-[Ll]ogs/
-/.containers
-# .NET Core 
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# .NET Core
 project.lock.json
 project.fragment.lock.json
 artifacts/
@@ -104,7 +91,6 @@ artifacts/
 *.tmp_proj
 *_wpftmp.csproj
 *.log
-*.tlog
 *.vspscc
 *.vssscc
 .builds
@@ -120,5 +106,5 @@ artifacts/
 *.nuget.props
 *.nuget.targets
 
-# Local development settings
-appsettings.Development.json
+# Local History
+.localhistory/

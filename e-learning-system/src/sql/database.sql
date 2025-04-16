@@ -1,6 +1,8 @@
 -- Tạo schema nếu chưa có
 CREATE SCHEMA
 IF NOT EXISTS programs;
+CREATE SCHEMA
+IF NOT EXISTS users;
 
 CREATE TABLE users.table_users
 (
