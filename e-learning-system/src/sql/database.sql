@@ -1,7 +1,7 @@
 -- Tạo schema nếu chưa có
 CREATE SCHEMA
 IF NOT EXISTS programs;
--- test
+
 CREATE TABLE users.table_users
 (
   id UUID PRIMARY KEY,
@@ -13,14 +13,12 @@ CREATE TABLE users.table_users
   address TEXT,
   avatar_url TEXT,
   date_of_birth DATE,
-  gender VARCHAR
-  (10),
-  account_status VARCHAR
-  (50),
+  gender INT,
+  account_status INT,
   created_at TIMESTAMP
   WITHOUT TIME ZONE NOT NULL DEFAULT NOW
   (),
-    updated_at TIMESTAMP WITHOUT TIME ZONE NOT NULL DEFAULT NOW
+  updated_at TIMESTAMP WITHOUT TIME ZONE NOT NULL DEFAULT NOW
   ()
 );
   CREATE TABLE users.table_roles
@@ -34,9 +32,9 @@ CREATE TABLE users.table_users
     role_name VARCHAR(50) NOT NULL,
     PRIMARY KEY (user_id, role_name),
     CONSTRAINT table_user_roles_user_id_fkey 
-        FOREIGN KEY (user_id) REFERENCES public.table_users(id) ON DELETE CASCADE,
+        FOREIGN KEY (user_id) REFERENCES users.table_users(id) ON DELETE CASCADE,
     CONSTRAINT table_user_roles_role_name_fkey 
-        FOREIGN KEY (role_name) REFERENCES public.table_roles(name) ON DELETE CASCADE
+        FOREIGN KEY (role_name) REFERENCES users.table_roles(name) ON DELETE CASCADE
   );
 
 
