@@ -1,7 +1,7 @@
 -- Tạo schema nếu chưa có
 CREATE SCHEMA
 IF NOT EXISTS programs;
-
+-- test
 CREATE TABLE users.table_users
 (
   id UUID PRIMARY KEY,
@@ -13,8 +13,10 @@ CREATE TABLE users.table_users
   address TEXT,
   avatar_url TEXT,
   date_of_birth DATE,
-  gender VARCHAR(10),
-  account_status VARCHAR(50),
+  gender VARCHAR
+  (10),
+  account_status VARCHAR
+  (50),
   created_at TIMESTAMP
   WITHOUT TIME ZONE NOT NULL DEFAULT NOW
   (),
